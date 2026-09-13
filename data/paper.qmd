@@ -1,0 +1,14 @@
+---
+title: "Длина клюва пингвинов"
+format:
+  html:
+    embed-resources: true
+---
+
+```{r}
+getwd()
+data <- read.csv("penguins.csv")
+
+mean(data$bill_len)
+```
+```
