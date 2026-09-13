@@ -10,6 +10,6 @@ data <- read.csv("penguins.csv")
 
 x <- data$bill_len
 
-hist(x, breaks = seq(30, 60, 3))
+boxplot(x)
 ```
 ```
